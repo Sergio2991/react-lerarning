@@ -164,6 +164,84 @@ let result = pattern.test(text);
 console.log(result);
 // true — matches the emoji character due to the "v" (Unicode property escapes) flag
 // With v flag, Unicode property escapes like \\p{RGI_Emoji} can be used to match specific Unicode character properties.`,
+  `VALIDATE EMAIL
+PATTERN : /^[\\w.-]+@[a-zA-Z\\d.-]+\\.[a-zA-Z]{2,}$/
+
+EXAMPLE : 
+const email = "user@example.com";
+console.log(/^[\\w.-]+@[a-zA-Z\\d.-]+\\.[a-zA-Z]{2,}$/.test(email)); 
+// true
+`,
+  `EXTRACT ALL NUMBERS
+PATTERN :/\\d+/g
+
+EXAMPLE : 
+const str = "Order 123 costs 45 dollars";
+console.log(str.match(/\\d+/g)); 
+// ["123", "45"]
+`,
+  `REPLACE MULTIPLE SPACES WITH ONE
+PATTERN : /\\s+/g
+
+EXAMPLE : 
+const messy = "This   is   a   test";
+console.log(messy.replace(/\\s+/g, " "));
+// "This is a test"
+`,
+  `MATCH DATES (DD/MM/YYYY)
+PATTERN : /\\b\\d{2}\\/\\d{2}\\/\\d{4}\\b/g
+
+EXAMPLE : 
+const text = "Today's date is 24/01/2026.";
+console.log(text.match(/\\b\\d{2}\\/\\d{2}\\/\\d{4}\\b/g));
+// ["24/01/2026"]
+`,
+  `STRONG PASSWORD VALIDATION
+  PATTERN : /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[\\W_]).{8,}$/
+
+  EXAMPLE : 
+  const password = "Str0ng@Pass";
+console.log(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[\\W_]).{8,}$/.test(password));
+// true
+  `,
+  `EXTRACT HASHTAGS
+PATTERN : /#\\w+/g
+
+EXAMPLE : 
+const post = "Loving the #sunset and #beachlife!";
+console.log(post.match(/#\\w+/g));
+// ["#sunset", "#beachlife"]
+  `,
+  `MATCH URLs (http/https)
+PATTERN : /https?:\\/\\/[^\\s]+/g
+
+EXAMPLE : const text = "Visit https://example.com for more info.";
+console.log(text.match(/https?:\\/\\/[^\\s]+/g));
+// ["https://example.com"]
+  `,
+  `EXTRACT WORDS (Ignore Punctuation)
+PATTERN : /\\w+/g
+
+EXAMPLE :
+const sentence = "Hello, world! This is great.";
+console.log(sentence.match(/\\w+/g));
+// ["Hello", "world", "This", "is", "great"]
+  `,
+  `VALIDATE ITALIAN PHONE NUMBER
+
+PATTERN : /^\\+?39?\\s?\\d{6,12}$/
+
+EXAMPLE : 
+console.log(/^\\+?39?\\s?\\d{6,12}$/.test("+39 3331234567"));
+// true
+  `,
+  `REMOVE HTML Tags
+PATTERN : /<[^>]*>/g
+
+EXAMPLE : const html = "<p>Hello <strong>world</strong></p>";
+console.log(html.replace(/<[^>]*>/g, ""));
+// "Hello world"
+  `,
 ];
 
 const Regex = () => {

@@ -68,8 +68,8 @@ export default function InputField({ label, type, name }) {
     // components/Toggle.jsx
 export default function Toggle({ isOn }) {
   return (
-    <div className={'w-12 h-6 rounded-full $\{isOn ? 'bg-green-500' : 'bg-gray-300'}'}> //Use backtick here instead of single quote. In this example ive used single quote as VScode was seeing it as interpolation.
-      <div className={'w-6 h-6 bg-white rounded-full transform $\{isOn ? 'translate-x-6' : ''}'}></div> //Use backtick here instead of single quote. In this example ive used single quote as VScode was seeing it as interpolation.
+    <div className={\`w-12 h-6 rounded-full $\{isOn ? 'bg-green-500' : 'bg-gray-300'}\`}> 
+      <div className={\`w-6 h-6 bg-white rounded-full transform $\{isOn ? 'translate-x-6' : ''}\`}></div> 
     </div>
   );
 }

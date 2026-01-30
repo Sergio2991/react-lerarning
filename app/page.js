@@ -83,6 +83,11 @@ export default function Home() {
             Slice Method
           </Link>
         </li>
+        <li>
+          <Link href="/dynamic-classes" className="text-blue-500 underline">
+            Dynamic Classes
+          </Link>
+        </li>
       </ul>
     </div>
   );

@@ -119,37 +119,37 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/grid-based-layout" className="text-blue-500 underline">
             Grid based landing page layout
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/split-screen-layout" className="text-blue-500 underline">
             Split screen layout (authentification pages)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/mega-menu" className="text-blue-500 underline">
             Mega menu (Amazon-style)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/breadcrumbs" className="text-blue-500 underline">
             Breadcrumbs
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/tabs" className="text-blue-500 underline">
             Tabs (underline, pill, animated)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/pagination" className="text-blue-500 underline">
             Pagination (simple, advanced with icons)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/" className="text-blue-500 underline">
             Stepper /multi-step progress bar
           </Link>
         </li>

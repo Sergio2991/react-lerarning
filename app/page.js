@@ -149,57 +149,59 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/" className="text-blue-500 underline">
+          <Link
+            href="/stepper-progress-bar"
+            className="text-blue-500 underline"
+          >
             Stepper /multi-step progress bar
           </Link>
         </li>
+
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
-            Login/ Register forms
-          </Link>
-        </li>
-        <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/search-bar" className="text-blue-500 underline">
             Search bar with autocomplete
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link
+            href="/multi-select-dropdown"
+            className="text-blue-500 underline"
+          >
             Multi-select dropdown
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/file-upload" className="text-blue-500 underline">
             File upload component ( drag and drop)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/toggle-switches" className="text-blue-500 underline">
             Toggle switches
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/sliders" className="text-blue-500 underline">
             Sliders( price range, volume)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/date-picker" className="text-blue-500 underline">
             Date picker (custom Tailwind version)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/product-card" className="text-blue-500 underline">
             Product card (e-commerce)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/blog-post-card" className="text-blue-500 underline">
             Blog post card
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/profile-card" className="text-blue-500 underline">
             Profile card
           </Link>
         </li>

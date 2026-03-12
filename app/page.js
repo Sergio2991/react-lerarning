@@ -206,57 +206,57 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/pricing-card" className="text-blue-500 underline">
             Pricing cards (monthly/yearly toggle)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/carousel" className="text-blue-500 underline">
             Testimonial carousel
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/feature-grid" className="text-blue-500 underline">
             Feature grid (icon + text)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/modal" className="text-blue-500 underline">
             Modal (centered, slide-in, fullscreen)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/drawer" className="text-blue-500 underline">
             Drawer (left/right slide)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/accordion" className="text-blue-500 underline">
             Accordion/ FAQ
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/toast" className="text-blue-500 underline">
             Toast notifications
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/tooltip" className="text-blue-500 underline">
             Tooltip
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/dropdown-menu" className="text-blue-500 underline">
             Dropdown menus
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/command-palette" className="text-blue-500 underline">
             Command palette ( like Spotlight/ VSCode)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/table" className="text-blue-500 underline">
             Table(sortable, filterable)
           </Link>
         </li>

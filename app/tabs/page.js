@@ -114,6 +114,16 @@ export default function AnimatedTabs() {
       </div>
     </div>
   );
+}
+  
+ADD PROGRESS ANIMATION
+@keyframes progress {
+  from { width: 100%; }
+  to { width: 0%; }
+}
+
+.animate-progress {
+  animation: progress 4s linear forwards;
 }`,
 ];
 

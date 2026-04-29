@@ -261,118 +261,151 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/data-grid" className="text-blue-500 underline">
             Data grid with pagination
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/chart" className="text-blue-500 underline">
             Charts ( using Tailwind + chart librairies)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/stats-widget" className="text-blue-500 underline">
             Stats widgets (KPI's, metrics)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/timeline" className="text-blue-500 underline">
             Timeline component
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/animated-navbar" className="text-blue-500 underline">
             Animated navbar
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/" className="text-blue-500 underline">
             Smooth page transitions
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/animated-modals" className="text-blue-500 underline">
             Animated modals
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/" className="text-blue-500 underline">
             Hover effect for cards
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/" className="text-blue-500 underline">
             Animated list items
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
-            Login/ Signup pages
+          <Link href="/signin-pages" className="text-blue-500 underline">
+            Login/ SignIn pages
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/signup-pages" className="text-blue-500 underline">
+            Login/ SignUp pages
+          </Link>
+        </li>
+        <li>
+          <Link href="/magic-link" className="text-blue-500 underline">
             Magic link UI
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/oauth-buttons" className="text-blue-500 underline">
             OAuth buttons ( Google, Github)
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link
+            href="/protected-route-wrapper"
+            className="text-blue-500 underline"
+          >
             Protected route wrapper
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/shopping-cart" className="text-blue-500 underline">
             Shopping cart drawer
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/product-zoom" className="text-blue-500 underline">
             Product gallery with zoom
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/quantity-selector" className="text-blue-500 underline">
             Quantify selector
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/checkout-form" className="text-blue-500 underline">
             Checkout form
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/summary-card" className="text-blue-500 underline">
             Order summary card
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/sidebar" className="text-blue-500 underline">
             Sidebar
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/user-menu" className="text-blue-500 underline">
             User menu dropdown
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/notification-bell" className="text-blue-500 underline">
             Notification bell + dropdown
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/activity-feed" className="text-blue-500 underline">
             Activity feed
           </Link>
         </li>
         <li>
-          <Link href="/nav-bar" className="text-blue-500 underline">
+          <Link href="/settings-panel" className="text-blue-500 underline">
             Settings panel
+          </Link>
+        </li>
+        <li>
+          <Link href="/git-commands" className="text-blue-500 underline">
+            Git commands
+          </Link>
+        </li>
+        <li>
+          <Link href="/terminal-commands" className="text-blue-500 underline">
+            Terminal commands
+          </Link>
+        </li>
+        <li>
+          <Link href="/yarn-commands" className="text-blue-500 underline">
+            Yarn commands
+          </Link>
+        </li>
+        <li>
+          <Link href="/node-commands" className="text-blue-500 underline">
+            Node commands
+          </Link>
+        </li>
+        <li>
+          <Link href="/brewdog-commands" className="text-blue-500 underline">
+            Brewdog commands
           </Link>
         </li>
       </ul>
